@@ -1,0 +1,56 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  background: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header { text-align: center; margin-bottom: 24px; }
+header h1 { font-size: 24px; color: #58a6ff; }
+.sub { color: #8b949e; font-size: 13px; margin-top: 6px; }
+
+nav { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+.tab {
+  background: #161b22; color: #c9d1d9; border: 1px solid #30363d;
+  padding: 8px 14px; cursor: pointer; font-family: inherit; font-size: 13px;
+  border-radius: 4px;
+}
+.tab.active { background: #1f6feb; color: #fff; border-color: #1f6feb; }
+
+.panel { display: none; background: #161b22; border: 1px solid #30363d;
+         border-radius: 6px; padding: 20px; }
+.panel.active { display: block; }
+.panel h2 { font-size: 18px; margin-bottom: 8px; color: #58a6ff; }
+.hint { color: #8b949e; font-size: 12px; margin-bottom: 12px; }
+
+textarea {
+  width: 100%; min-height: 80px; background: #0d1117; color: #e6edf3;
+  border: 1px solid #30363d; padding: 10px; font-family: inherit;
+  font-size: 13px; border-radius: 4px; resize: vertical;
+}
+
+.primary {
+  background: #238636; color: #fff; border: none; padding: 8px 16px;
+  margin-top: 10px; cursor: pointer; font-family: inherit; font-size: 13px;
+  border-radius: 4px;
+}
+.primary:hover { background: #2ea043; }
+
+.result { margin-top: 16px; }
+.card {
+  background: #0d1117; border: 1px solid #30363d; padding: 12px;
+  border-radius: 4px; margin-bottom: 10px; font-size: 13px;
+}
+.card .label { color: #58a6ff; font-weight: bold; }
+.card .meta { color: #8b949e; font-size: 11px; margin-top: 4px; }
+.drift { border-left: 3px solid #f78166; }
+.contradiction { background: #3d1d1d; border-color: #f85149; }
+.answer { background: #1d3d1d; border-color: #2ea043; padding: 14px; }
+pre { background: #010409; padding: 10px; overflow-x: auto;
+      font-size: 11px; color: #c9d1d9; border-radius: 4px; }
+footer { text-align: center; color: #6e7681; font-size: 11px; margin-top: 30px; }
+.badge { display: inline-block; padding: 2px 8px; background: #1f6feb;
+         color: #fff; border-radius: 10px; font-size: 11px; margin-right: 4px;}
