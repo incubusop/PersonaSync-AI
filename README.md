@@ -333,12 +333,12 @@ gunicorn app:app
 # 🎥 Demo
 
 ## Hosted Demo
-
-(Add deployed URL)
+[
+(Add deployed URL)](https://huggingface.co/spaces/incubusop/personasync-ai)
 
 ## Loom Walkthrough
 
-(Add Loom link)
+[(Add Loom link)](https://www.loom.com/share/f1e0b43b2e9f4d0c8ffcb0dbfc29c81a)
 
 ---
 
