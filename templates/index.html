@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>KaStack AI Memory System</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+<header>
+  <h1>🧠 KaStack AI Memory System</h1>
+  <p class="sub">Persona Drift · Offline Intent · Conflict-Aware RAG</p>
+</header>
+
+<nav>
+  <button class="tab active" data-tab="persona">Persona Timeline</button>
+  <button class="tab" data-tab="intent">Intent Classifier</button>
+  <button class="tab" data-tab="rag">Conflict Resolver</button>
+</nav>
+
+<main>
+  <!-- PERSONA -->
+  <section id="persona" class="panel active">
+    <h2>Persona Drift Timeline</h2>
+    <p class="hint">Daily mood/tone with detected drift triggers.</p>
+    <button id="loadPersona" class="primary">Load Timeline</button>
+    <div id="personaResult" class="result"></div>
+  </section>
+
+  <!-- INTENT -->
+  <section id="intent" class="panel">
+    <h2>Offline Intent Classifier</h2>
+    <p class="hint">Classes: reminder · emotional-support · action-item · small-talk · unknown</p>
+    <textarea id="intentInput" placeholder="e.g. Remind me to call mom tomorrow"></textarea>
+    <button id="predictIntent" class="primary">Predict</button>
+    <div id="intentResult" class="result"></div>
+  </section>
+
+  <!-- RAG -->
+  <section id="rag" class="panel">
+    <h2>Conflict-Aware RAG</h2>
+    <p class="hint">Try: <em>Did I mention anything about my sister?</em></p>
+    <textarea id="ragInput" placeholder="Ask a question about your memory..."></textarea>
+    <button id="askRag" class="primary">Ask</button>
+    <div id="ragResult" class="result"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Built for KaStack Labs · L2 AI/ML Intern Task</p>
+</footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
