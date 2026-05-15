@@ -1,0 +1,19 @@
+[
+  {"day": 1, "timestamp": "2026-05-01", "text": "I'm really excited to start learning about AI engineering. Could you guide me on what to focus on?"},
+  {"day": 1, "timestamp": "2026-05-01", "text": "I'd like to understand the fundamentals properly before jumping into projects."},
+  {"day": 1, "timestamp": "2026-05-01", "text": "My sister Anjali also recommended I take this seriously. She works in tech."},
+
+  {"day": 2, "timestamp": "2026-05-02", "text": "Started the Andrew Ng course today. Found it really interesting."},
+  {"day": 2, "timestamp": "2026-05-02", "text": "My sister and I are very close, we talk every day."},
+
+  {"day": 4, "timestamp": "2026-05-04", "text": "ugh today was the worst, the deployment failed three times"},
+  {"day": 4, "timestamp": "2026-05-04", "text": "had a huge argument with my sister, we're not speaking right now"},
+  {"day": 4, "timestamp": "2026-05-04", "text": "honestly i'm just done with everything, nothing is working"},
+
+  {"day": 5, "timestamp": "2026-05-05", "text": "still feeling down. couldn't focus on work at all"},
+  {"day": 5, "timestamp": "2026-05-05", "text": "my sister moved to Pune for her new job, that's part of why we fought"},
+
+  {"day": 7, "timestamp": "2026-05-07", "text": "haha okay so things are looking up! got a callback from KaStack Labs"},
+  {"day": 7, "timestamp": "2026-05-07", "text": "talked to my sister finally, we made up. she's settling well in Pune."},
+  {"day": 7, "timestamp": "2026-05-07", "text": "feeling playful and energized today, gonna celebrate tonight"}
+]
